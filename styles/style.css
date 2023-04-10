@@ -50,20 +50,20 @@ body {
 
 .rodape{
     text-align: center;
-    margin:5em 4em
+    margin:10% 10%
 }
 .rodape__lista {
     display: flex;
     justify-content: center;
     list-style-type: none;
-    margin-top: 3em;
+    margin-top: 5%;
 }
 
 .lista__link a{
     text-align: center;
     text-decoration: none;
     color: #f6f6f6;
-    margin-left: 2em;
+    margin-left: 2%;
 }
 
 .lista__linka:hover{
