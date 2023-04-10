@@ -6,11 +6,6 @@ body {
     font-family: 'inter';
 }
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
 .principal {
     background-repeat: no-repeat;
     background-size: contain;
@@ -21,7 +16,7 @@ body {
 .container {
     height: 100vh;
     display: grid;
-    grid-template: 50% 50%;
+    grid-template: 40% 40%;
 }
 
 .container__aviso {
@@ -50,7 +45,7 @@ body {
 
 .rodape{
     text-align: center;
-    margin:10% 10%
+    margin:6% 6%
 }
 .rodape__lista {
     display: flex;
@@ -64,6 +59,7 @@ body {
     text-decoration: none;
     color: #f6f6f6;
     margin-left: 2%;
+  
 }
 
 .lista__linka:hover{
@@ -79,9 +75,17 @@ body {
     display: flex;
     justify-content: center;
     list-style-type: none;
-    margin-top: 2em;
+    margin-top: 0em;
     text-align: center;
     text-decoration: none;
     color: #f6f6f6;
-    margin-left: 1em;
+    
 }
+
+
+.imagem { 
+    width: 20%;
+    height: 20%;
+    margin: 1em 0 2em 0
+}
+
